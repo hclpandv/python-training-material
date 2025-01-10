@@ -1,0 +1,4 @@
+python-dotenv
+tzdata==2022.2
+azure.identity
+azure.keyvault.secrets
