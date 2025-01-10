@@ -4,7 +4,12 @@ my_float = 20.5	#float
 my_list = ["apple", "banana", "cherry"]	#list	
 my_tuple = ("apple", "banana", "cherry")	#tuple	
 my_range = range(6)	#range	
-my_dist = {"name" : "John", "age" : 36}	#dict	
+
+my_dict = { #dict
+    "name" : "John", 
+    "age" : 36
+}		
+
 my_set = {"apple", "banana", "cherry", "banana"}	#set	
 my_bool = True	#bool	
 my_bytes = b"Hello"	#bytes	
@@ -19,3 +24,4 @@ print(type(my_set))
 print(type(my_none))
 
 print(my_set)
+print(my_dict["name"])
